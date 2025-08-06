@@ -1,4 +1,7 @@
+import model.Producto;
+import java.util.*;
 
+import Controller.ProductoController;
 public class Main {
     public static void main(String[] args) {
         List<Producto> lista = Arrays.asList(
@@ -33,8 +36,8 @@ public class Main {
                 new Producto("Smart TV Box", "028", Arrays.asList(75.0, 78.0, 75.0, 80.0, 78.0, 75.0)),
                 new Producto("Soporte Celular", "029", Arrays.asList(10.0, 12.0, 10.0, 15.0, 12.0)),
                 new Producto("Ventilador USB", "030", Arrays.asList(8.0, 10.0, 8.0, 12.0, 10.0))
-
         );
 
+         
     }
 }
